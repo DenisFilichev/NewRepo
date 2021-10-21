@@ -24,6 +24,7 @@ public class Main {
         }
 
         if (devices[0] instanceof Vga && devices[2] instanceof Vga){
+            
             Vga dev1 = (Vga)devices[0];
             Vga dev2 = (Vga)devices[2];
             dev1.connectDeviceToVga(dev2);
