@@ -29,6 +29,7 @@ public class Main {
             Vga dev2 = (Vga)devices[2];
             dev1.connectDeviceToVga(dev2);
             dev2.connectDeviceToVga(dev1);
+            
         }
 
     }
