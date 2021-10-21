@@ -30,6 +30,7 @@ public class Main {
             dev1.connectDeviceToVga(dev2);
             dev2.connectDeviceToVga(dev1);
             
+            System.out.println();
         }
 
     }
